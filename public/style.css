@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 120vh;
+    background-image: url(images/bagground.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+}
+
+
+#logo{
+    width: 150px;
+    height: 60px;
+   
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+    background-color: white; opacity: 0.6; filter: alpha(opacity=60);
+    position: fixed;
+}
+nav{
+    flex: 1;
+    padding-left: 150px;
+}
+nav ul li {
+    display: inline-block ;
+    list-style: none;
+    margin: 0px 50px;
+}
+li{
+   
+    color: #666565;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    /* line-height: 30px;   */
+
+}
+
+li:hover{
+    color:rgb(37, 177, 158);
+    cursor: pointer;
+}
+
+.content h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #232d60;
+}
+
+.content p{
+    font-size: 20px;
+    color: #6a7199;
+}
+
+.content{
+    margin-left: 15%;
+    margin-top: 20%;
+}
+
+.content .btn{
+    display: inline-block;
+    background: linear-gradient(60deg ,#f89809 , #effa59);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
+}
+
+.arrow-icons{
+    margin-top: 40px;
+    display: flex;
+}
+
+.arrow-icons .btn2{
+    border-radius: 50%;
+}
+.arrow-icons img{
+   width: 40px;
+   margin-right: 25px;
+}
+
+.container2{
+    width: 100%;
+    /* height: 180vh; */
+    background-image: url("https://th.bing.com/th/id/R.9dcdc6b66519fd200e7014487b47884d?rik=Pe3efUCTgPILWg&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fCsA2H70.jpg&ehk=epwhKZzieby0nZrGrhrIF9a1DZTSfWOmc0bbhVUbYW8%3d&risl=&pid=ImgRaw&r=0");
+    background-position: center;
+    background-size: cover;
+    padding-top: 30px;
+}
+
+.products h2{
+    margin-top: 8%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.products p{
+   text-align: center;
+   color: #6a7199;
+}
+
+
+.Blocks{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    
+}
+
+.choice{
+   width: 20%;
+   min-width: 250px;
+   padding:10px 12px;
+   border:1px solid #666565;
+   border-radius: 25px;
+   cursor: pointer;
+   box-shadow: 20px 20px 30px rgb(0, 0, 0, 0.2);
+   margin: 15px 0;
+   transition: 0.2s ease;
+   position: relative;
+   
+}
+
+/* .choice :hover{
+    box-shadow: 20px 20px 30px rgb(0, 0, 0, 0.6);
+} */
+
+.choice img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.choice .des{
+    text-align: start;
+    padding: 10px 0;
+    /* position: relative; */
+}
+
+.choice .des span{
+    color: #606063;
+    font-size: 22px;
+}
+
+.choice .des h5{
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 20px;
+}
+.choice .des i{
+    font-size: 14px;
+    color: rgb(202, 93, 42);
+}
+.choice .des h4{
+    padding-top: 7px;
+    font-size: 18px;
+    font-family: 700;
+    color:rgb(68, 184, 168)
+}
+
+ .cart{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: #eef1ee;
+    font-weight: 500;
+    color:rgb(68, 184, 168);
+    border: 1px solid #cce7d0;
+    position : absolute;
+    bottom: 20px;
+    right: 10px;
+    padding-top: 3%;
+    padding-left: 2%;
+
+}
+
+
+p{
+    font-family:  Work Sans, Arial, sans-serif;
+    font-size: 1.3em;
+    font-weight: 900;
+    line-height: 1.2;
+    color: rgb(255, 255, 255);    
+}
+
+.social-links{
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -140px;
+    bottom: 450px;
+    /* justify-content: space-between; */
+}
+
+.social-links a{
+    text-decoration: none;
+    padding-right: 40px;
+    font-size: 20px;
+    color: #656f9b;
+    
+}
+
+.contacts{
+    margin-top: 17%;
+    margin-left: 20%;
+    margin-right: 63%;
+    padding: 20px 30px;
+    background-color: white; opacity: 0.6; filter: alpha(opacity=60);
+    /* position: fixed; */
+}
+
+.contacts h2{
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: 800;
+    color: #e68c06;
+    margin-left: 30px;
+}
+
+.contacts h4{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.contacts span{
+    display: flex;
+}
+
+.contacts i{
+    color: #272180;
+    margin-top: 32px;
+    margin-right: 10px;
+    font-size: 20px;
+}
